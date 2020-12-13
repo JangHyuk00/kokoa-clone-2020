@@ -91,7 +91,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 25px;
+    padding: 5px 24px;
+    padding-right: 30px;
     transition: transform 0.3s ease-in-out;
 }
 .reply i{
@@ -147,7 +148,7 @@
 }
 
 .reply:focus-within input{
-    width: 98vw;
+    width: 92vw;
     transform: translateX(-14%) translateY(-80px);
 }
 .reply:focus-within{
